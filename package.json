@@ -1,0 +1,30 @@
+{
+  "name": "toolknit-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that drives toolknit.com tool pages in headless Edge to convert file formats locally in the browser",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "file-conversion",
+    "docx",
+    "pdf",
+    "playwright"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/convert.test.js",
+    "test:mcp": "node test/mcp.test.js",
+    "test:all": "node test/all.test.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "fflate": "^0.8.3",
+    "playwright-core": "^1.49.0"
+  },
+  "devDependencies": {
+    "docx": "^9.14.0"
+  }
+}
