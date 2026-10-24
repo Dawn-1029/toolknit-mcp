@@ -4,6 +4,7 @@
   "description": "MCP server that drives toolknit.com tool pages in headless Edge to convert file formats locally in the browser",
   "type": "module",
   "main": "index.js",
+  "author": "dawn",
   "license": "MIT",
   "keywords": [
     "mcp",
